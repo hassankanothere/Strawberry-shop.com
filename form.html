@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>forms</title>
+</head>
+<body>
+    <form action="Action_page.PHP" method="get">
+       <DIV>
+        <label for="First name">First name:</label>
+        <input name="First name" type="text" id="First name" placeholder="Hassan" required>
+    </DIV>
+
+
+    <br>
+
+
+    <DIV>
+        <label for="LAST name">Last name:</label>
+        <input name="LAST name" type="text" id="LAST name" placeholder="jaffar" required>
+    </DIV>
+
+
+
+
+
+    <br>
+
+
+    <DIV>
+        <label for="pass">Passowrd:</label>
+        <input name="pass" type="password" id="pass" required maxlength="10" minlength="8" placeholder="max letters is 10">
+        <dd style="font-size: 0.3cm;">The passowrd must be at least 8 letters </dd>
+    </DIV>
+
+    <br>
+
+
+    <DIV>
+        <label for="Email">Email:</label>
+        <input name="Email" type="email" id="Email" placeholder="Hassan@email.com" required>
+    </DIV>
+
+    <br>
+    <DIv>
+        <label for="date">Date of birth:</label>
+        <input type="date" name="date" id="date">
+
+    </DIv>
+<br>
+    <DIV>
+        <label for="Sex">Sex:</label>
+        <select name="Sex" id="Sex">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="I prefer not to say">I prefer not to say</option>
+
+            
+            
+
+        </select>
+        <br>
+        <br>
+        <label for="box">هل توافق على قوانين تحسين؟</label>
+        <input type="checkbox" name="box" id="box" required>
+        <br>
+        <BR>
+    <input type="reset">
+    <br>
+    <br>
+    <input type="submit">
+    </DIV>
+
+    </form>
+
+
+</body>
+</html>
